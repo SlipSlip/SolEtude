@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" src="/scripts/emailpage.js"></script>
+		<link rel="stylesheet" href="nouveaustyle.css" type="text/css" media="all" />
+		<title>Activités</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+		<script src="jquery-ui-1.8.21.custom.min.js"></script>
+		<script src="jquery-1.7.2.min.js"></script>
+		<script>
+			jQuery.noConflict();     
+			$(document).ready(function() {
+				$("#tabs").tabs(); 														// initialisation des onglets du tableau
+				$("#tabs").tabs({ fx: { opacity: 'toggle', duration:'fast' } });		// ajout de l'effet " Fade " lorsque l'on clique sur un onglet
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div id="global">
+			<div id="page">
+				<div id="header">
+					<img src="img/header5.png" alt="slogan de l'onglet Societe" />
+					
+					<div id="fond_cadre_header">
+
+						<div id="menu">
+								<ul>
+									<li><a id="onglet_inactif" href="home.php">Accueil</a></li>
+									<li><a id="onglet_inactif" href="societe.html">Société</a></li>
+									<li><a id="onglet_actif" href="activites_premiere.html">Activités</a></li>
+									<li><a id="onglet_inactif" href="references.html">Références</a></li>
+									<li><a id="onglet_inactif" href="contact.html">Contact</a></li>
+								</ul>
+						</div>	
+
+					</div>
+				</div>	
+				
+				<div id="fond_societe">
+
+					
+						<div id="content"> 
+				
+							<div id="tabs">
+								<ul>
+									<li><a href="#tabs-1">       Eau       </a></li>
+									<li><a href="#tabs-2">       Sol       </a></li>
+									<li><a href="#tabs-3">      Déchets  </a></li>
+								</ul>
+
+								<div id="tabs-1">
+									<p><nav id="acteaulong"></nav></p>
+									<p><nav id="position_ancrage"></nav></p>
+									<nav id="conteneur1">
+									<nav id="contenu1"> <nav id="image1"></nav> <nav id="text1">Echantillonnage des eaux et relevé des paramètres physico-chimiques.</nav> </nav>
+									<nav id="contenu2"> <nav id="image2"></nav> <nav id="text2">Prise de niveau d’eau à l’aide d’un limnimètre.</nav> </nav>
+									<nav id="contenu3"> <nav id="image3"></nav> <nav id="text3">Prise de paramètres lors d’un échantillonnage d’eau.</nav> </nav>
+									</nav>
+								</div>
+
+								<div id="tabs-2">
+									<p><nav id="actsollong"></nav></p>
+									<p><nav id="position_ancrage"></nav></p>
+									<nav id="conteneur2">
+									<nav id="contenu1s"> <nav id="image1s"></nav> <nav id="text1s">Forage en cours de réalisation.</nav> </nav>
+									<nav id="contenu2s"> <nav id="text2s">Carottes issues d'un forage.</nav> <nav id="image2s"></nav> </nav>
+									<nav id="contenu3s"> <nav id="image3s"></nav> <nav id="text3s">Suivi de la mise en place d'une barrière d'argile.</nav> </nav>
+									</nav>
+								</div>
+
+								<div id="tabs-3">
+									<p><nav id="actdechetslong"></nav></p>
+									<p><nav id="position_ancrage"></nav></p>
+									<nav id="conteneur3">
+									<nav id="contenu1d"> <nav id="image1d"></nav> <nav id="text1d">Dépollution d'eau par charbon actif.</nav> </nav>
+									<nav id="contenu2d"> <nav id="image2d"></nav> <nav id="text2d">Travaux d'assainissement.</nav> </nav>
+									<nav id="contenu3d"> <nav id="image3d"></nav> <nav id="text3d">Exhumation de réservoir d'hydrocarbures dans le cadre de travaux d'assainissement.</nav> </nav>
+									</nav>
+								</div>
+
+							</div>
+					
+						</div>
+					
+				</div>
+				
+				<div id="footer_soc">
+					<div id="footer_menu_soc"> 	
+						<a href="mentions_legales.html">Mentions légales</a>
+					</div>
+				</div>
+				
+				<div id="icone_menu_soc"></div>
+				
+			</div>
+		</div>
+	</body>
