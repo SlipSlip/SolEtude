@@ -392,6 +392,10 @@ ul li.active a{
     left:-65px;
 	top: 30px;*/
 
+text-align:justify;
+margin:auto;
+padding:auto;
+background-color:#000;
 	position:absolute;
 	top:25px;
 	left:30px;

@@ -300,6 +300,8 @@ ul li.active a{
 #post-content {
 	width:855px;
 	height:100px;
+	
+text-align:justify;
 	position: relative;
 	left:35px;
 	top:-10px;
@@ -1232,7 +1234,7 @@ ul li.active a{
 
 	overflow:no;
 	height:400px;
-	width:900px;
+	width:870px;
 	position:relative;
 	top:-11px;
 	left:32px;

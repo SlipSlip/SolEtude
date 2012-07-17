@@ -52,9 +52,6 @@ session_start(); // on attribue un identifiant de session à l'internaute
 				ease:'swing',
 				autowidth:true,
 				fadespeed:'3000',
-				
-crossFade:true
-				
 			});
 		  });
 	</script>
@@ -105,7 +102,7 @@ crossFade:true
 					<div id="contouricone"><div id="QSN">Qui sommes-nous?</div></div>
 					<div id="iconeaccueil"></div>
 					<div id="post-content">
-									&nbsp;&nbsp;&nbsp;Le bureau SolEtude s.à r.l. a pour vocation
+									Le bureau SolEtude s.à r.l. a pour vocation
 									de pouvoir apporter à une large clientèle telles qu’entreprises
 									publiques et privées, administrations, bureaux d’ingénieurs, collectivités et 
 									particuliers, un service de qualité dans le domaine de la consultance en matière
@@ -119,7 +116,7 @@ crossFade:true
 				
 				<div id="footer">
 					<div id="footer_menu"> 	
-						<a href="mentions_legales.html"> <?php echo '<strong>'.$compteur.'</strong>'; ?> | Mentions légales</a>
+						<a href="mentions_legales.html">Mentions légales</a>
 					</div>
 				</div>
 				
