@@ -50,8 +50,8 @@ session_start(); // on attribue un identifiant de session à l'internaute
 				preload: true,
 				play: 5000,
 				pause: 5000,
-				slideSpeed: 1500,
-				fadeSpeed: 2050,
+				slideSpeed: 2000,
+				fadeSpeed: 2000,
 				hoverPause: true,
 				animationStart: function(current){
 					$('.caption').animate({
