@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" src="/scripts/emailpage.js"></script>
+		<link rel="stylesheet" href="nouveaustyle.css" type="text/css" media="all" />
+		<title>Société</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+		<script src="jquery-ui-1.8.21.custom.min.js"></script>
+		<script src="jquery-1.7.2.min.js"></script>
+		<script>
+			jQuery.noConflict();     
+			$(document).ready(function() {
+				$("#boite_a_onglet").tabs(); 														// initialisation des onglets du tableau
+				$("#boite_a_onglet").tabs({ fx: { opacity: 'toggle', duration:'fast' } });		// ajout de l'effet " Fade " lorsque l'on clique sur un onglet
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div id="global">
+			<div id="page">
+				<div id="header">
+					<img src="img/header5.png" alt="slogan de l'onglet Societe" />
+					
+					<div id="fond_cadre_header">
+
+						<div id="menu">
+								<ul>
+									<li><a id="onglet_inactif" href="index.php">Accueil</a></li>
+									<li><a id="onglet_actif" href="societe.html">Société</a></li>
+									<li><a id="onglet_inactif" href="activites_premiere.html">Activités</a></li>
+									<li><a id="onglet_inactif" href="references.html">Références</a></li>
+									<li><a id="onglet_inactif" href="contact.html">Contact</a></li>
+								</ul>
+						</div>	
+
+					</div>
+				</div>	
+				
+				<div id="fond_societe">
+					<div id="content"> 
+
+	
+	<div id="boite_a_onglet">
+        <ul>
+                <li><a href="#onglet_1">Niveau 1</a></li>
+                <li><a href="#onglet_2">Niveau 1</a></li>
+                <li><a href="#onglet_3">Niveau 3</a></li>
+        </ul>	
+        <div id="onglet_1"> Cé ê à @ </div>
+        <div id="onglet_2"> Contenu 2</div>
+        <div id="onglet_3"> Contenu 3 </div>
+</div>
+
+
+</div>
+
+
+					</div>
+					
+				</div>
+				
+				<div id="footer_soc">
+					<div id="footer_menu_soc"> 	
+						<a href="mentions_legales.html">Mentions légales</a>
+					</div>
+				</div>
+				
+				<div id="icone_menu_soc"></div>
+				
+			</div>
+		</div>
+	</body>
