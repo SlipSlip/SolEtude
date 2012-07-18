@@ -1,38 +1,37 @@
 <?php
 session_start(); // on attribue un identifiant de session à l'internaute
-												$fic = fopen('compteur_de_visites.txt', 'r+'); // on ouvre le fichier qui contient le nombre de visites
-												if($fic == FALSE ){ // verification de la bonne ouverture de fichier
-													echo "Erreur lors de l'ouverture du fichier compteur_de_visites.txt";
-												}
-												else{	
-													$compteur = fgets($fic);	// on récupère le compteur du fichier
-													fclose($fic); // on ferme le fichier
-													if(!isset($_SESSION['compteur_de_visite'])) // on regarde si un attribut de session 'compteur_de_visite' est déjà
-																								// défini, si oui alors l'internaute est déjà venu sur ce site
-																								// 	       si non alors on crée cet attribut de session pour l'internaute en train de
-																								//		          de consulter le site internet, et donc, l'internaute n'est pas
-																								//				  venu sur ce site
-													{
-													
-															$_SESSION['compteur_de_visite'] = 'visite'; // création de l'attribut de session
-															$compteur++;								// on incrémente le compteur de visite
-															$fic = fopen('compteur_de_visites.txt', 'w+');	// on ouvre le fichier en w+ afin de supprimer son contenu
+$fic = fopen('compteur_de_visites.txt', 'r+'); // on ouvre le fichier qui contient le nombre de visites
+if($fic == FALSE ){ // verification de la bonne ouverture de fichier
+	echo "Erreur lors de l'ouverture du fichier compteur_de_visites.txt";
+}
+else{	
+	$compteur = fgets($fic);	// on récupère le compteur du fichier
+	fclose($fic); // on ferme le fichier
+	if(!isset($_SESSION['compteur_de_visite'])) // on regarde si un attribut de session 'compteur_de_visite' est déjà
+												// défini, si oui alors l'internaute est déjà venu sur ce site
+												// 	       si non alors on crée cet attribut de session pour l'internaute en train de
+												//		          de consulter le site internet, et donc, l'internaute n'est pas
+												//				  venu sur ce site
+	{
+	$_SESSION['compteur_de_visite'] = 'visite'; // création de l'attribut de session
+	$compteur++;								// on incrémente le compteur de visite
+	$fic = fopen('compteur_de_visites.txt', 'w+');	// on ouvre le fichier en w+ afin de supprimer son contenu
 															
-															if($fic == FALSE ){						    // verification de la bonne ouverture de fichier
-																echo "Erreur lors de l'ouverture du fichier compteur_de_visites.txt";
-															}		
+	if($fic == FALSE ){						    // verification de la bonne ouverture de fichier
+		echo "Erreur lors de l'ouverture du fichier compteur_de_visites.txt";
+	}		
 															
-															$ecriture=fputs($fic, $compteur);           // on écris dans le fichier le nombre de visites
+	$ecriture=fputs($fic, $compteur);           // on écris dans le fichier le nombre de visites
 															
-															if($ecriture==FALSE){						// verification de la bonne écriture dans le fichier
-																echo "Erreur lors de l'écriture dans le fichier copteur_de_visites.txt";
-															}
+	if($ecriture==FALSE){						// verification de la bonne écriture dans le fichier
+		echo "Erreur lors de l'écriture dans le fichier copteur_de_visites.txt";
+	}
 															
-															fclose($fic); // fermture du fichier
-													}
+	fclose($fic); // fermture du fichier
+	}
 												
-												}
-											?>
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
