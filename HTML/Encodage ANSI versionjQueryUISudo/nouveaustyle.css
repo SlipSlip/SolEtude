@@ -1059,14 +1059,14 @@ text-align:justify;
 }
 
 #text1d{
-	width:185px;
+	width:195px;
 	height:70px;
 	background-color:#fff;
 	position:relative;
 	top:-90px;
 	left:10px;
 	padding-top:30px;
-	padding-left:25px;
+	padding-left:15px;
 	padding-right:10px;
 }
 
@@ -1088,14 +1088,14 @@ text-align:justify;
 }
 
 #text2d{
-	width:185px;
-	height:82px;
+	width:195px;
+	height:92px;
 	background-color:#fff;
 	position:relative;
 	top:-100px;
 	left:270px;
-	padding-top:28px;
-	padding-left:25px;
+	padding-top:18px;
+	padding-left:15px;
 	padding-right:10px;
 }
 
