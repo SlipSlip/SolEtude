@@ -36,15 +36,12 @@ else{
 <html>
 <head>
 	<meta charset="ANSI">
-	
 	<title>Accueil</title>
-	
 	<link rel="stylesheet" href="nouveaustyle.css" type="text/css" media="all" />
-
-		<script type="Text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script type="text/javascript" src="jquery.sudoSlider.min.js"></script>
+	<script type="Text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.sudoSlider.min.js"></script>
 	<script>
-		$(document).ready(function(){	
+		$(document).ready(function(){	// Configuration du diaporama
 			$("#slider").sudoSlider({ 
 				fade: true,
 				auto:true,
@@ -64,7 +61,9 @@ else{
 					<img src="img/header5.png" alt="slogan de l'accueil" />
 					
 					<div id="fond_cadre_header">
-
+					
+						<!-- Menu de navigation -->
+						
 						<div id="menu">
 								<ul>
 									<li><a id="onglet_actif" href="home.php">Accueil</a></li>
@@ -81,12 +80,18 @@ else{
 									<div id="container">
 								
 										<div id="slider" >
+										
+										<!-- Diaporama -->
+										
 											<ul>
 												<li><img src="diaporama/diaporama1.png" alt="Slider1"/></li>
 												<li><img src="diaporama/diaporama3.png" alt="Slider2"/></li>
 												<li><img src="diaporama/diaporama4.png" alt="Slider3"/></li>
 												<li><img src="diaporama/diaporama2.png" alt="Slider4 "/></li>
 											</ul>
+											
+										<!-- Fin diaporama -->
+										
 										</div>
 
 									</div>
@@ -97,6 +102,9 @@ else{
 				</div>	
 				
 				<div id="cadre_accueil">
+				
+					<!-- Titre avec son logo et contour -->
+					
 					<div id="contouricone"><div id="QSN">Qui sommes-nous?</div></div>
 					<div id="iconeaccueil"></div>
 					<div id="post-content">
@@ -122,14 +130,17 @@ else{
 					<img id="logo_accueil" src="img/Logo-accueil2.png" alt="Logo SolEtude" />
 				</div>
 				
+				<!-- Footer -->
 				<div id="footer">
 					<div id="footer_menu"> 	
 						<a href="mentions_legales.html">Mentions légales</a>
 					</div>
 				</div>
+				<!-- Fin footer -->
 				
+				<!-- Icone menu gauche -->
 				<div id="icone_menu"></div>
-				<p id="compteur"></p>
+				
 				
 				
 				
