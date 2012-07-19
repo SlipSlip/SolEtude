@@ -1231,7 +1231,7 @@ text-align:justify;
 /* TEXTE */
 
 #contenu_references{
-
+	text-align:justify;
 	overflow:no;
 	height:400px;
 	width:870px;
