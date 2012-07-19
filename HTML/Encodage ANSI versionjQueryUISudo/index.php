@@ -100,6 +100,11 @@ else{
 					<div id="contouricone"><div id="QSN">Qui sommes-nous?</div></div>
 					<div id="iconeaccueil"></div>
 					<div id="post-content">
+					
+					<!-- LE CONTENU DE LA PAGE D'ACCUEIL SE TROUVE ICI -->	
+					<!-- LE CONTENU DE LA PAGE D'ACCUEIL SE TROUVE ICI -->	
+
+
 									Le bureau SolEtude s.à r.l. a pour vocation
 									de pouvoir apporter à une large clientèle telles qu’entreprises
 									publiques et privées, administrations, bureaux d’ingénieurs, collectivités et 
@@ -108,6 +113,11 @@ else{
 									sous-sols et des eaux pollués) et géotechnique. Nous nous tenons à votre entière disposition
 									pour toutes questions et demandes en relation avec ces domaines. Bonne navigation de la part
 									de l'équipe SolEtude!
+									
+									
+					<!-- LE CONTENU DE LA PAGE D'ACCUEIL SE TERMINE ICI -->	
+					<!-- LE CONTENU DE LA PAGE D'ACCUEIL SE TERMINE ICI -->	
+					
 					</div>
 					<img id="logo_accueil" src="img/Logo-accueil2.png" alt="Logo SolEtude" />
 				</div>
