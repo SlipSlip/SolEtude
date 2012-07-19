@@ -43,17 +43,17 @@ else{
 	<script>
 		$(document).ready(function(){	// Configuration du diaporama
 			$("#slider").sudoSlider({ 
-				fade: true,
-				auto:true,
-				autowidth:true,
-				fadespeed:'3000',
+				fade: true,				// Apparition activée
+				auto:true,				// Diaporama automatique
+				autowidth:true,			// Largeur de l'image automatique
+				fadespeed:'3000',		// Vitesse d'apparition d'une diapositive
 			});
 		  });
 	</script>
 </head>
 
-
-<body>
+<html>
+	<body>
 
 		<div id="global">
 			<div id="page">
